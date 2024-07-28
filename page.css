@@ -1,0 +1,26 @@
+ul {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-around; /* Distribute items evenly */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    background-color: #333; /* Optional: Set background color */
+}
+
+li {
+    padding: 14px 20px; /* Add padding inside each item */
+}
+
+a {
+    color: white; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+    display: block; /* Ensure clickable area covers entire list item */
+}
+
+img {
+    height: 450px;
+    width: 400px;
+    position: absolute; /* Position the image absolutely inside the container */
+    bottom: 25px; /* Align the image to the bottom edge of the container */
+    right: 10px; /* Align the image to the right edge of the container */
+ }
